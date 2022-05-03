@@ -1,0 +1,14 @@
+#include"allheaders.h"
+
+void echo(char *input_str){
+    char * token = strtok(input_str," ");
+    token = strtok(NULL," ");
+    for(int i=1;i>0;i++){
+        if(token!=NULL){
+            printf("%s ",token);
+            token=strtok(NULL," ");
+        }else{
+            break;
+        }
+    }printf("\n");
+}

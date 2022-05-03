@@ -1,0 +1,20 @@
+jobs
+jobs -r
+sleep 40 &
+jobs -r
+jobs -s
+exit
+jobs -r
+q
+jobs
+jobs -r
+q
+jobs -r
+q
+sleep 40 &
+sleep 50 &
+jobs -r
+jobs -s
+q
+ls
+q
